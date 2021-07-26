@@ -1,4 +1,4 @@
-import pizza from '/react/reactFood/src/Images/Chef.svg';
+import pizza from '../../../src/Images/Chef.svg';
 import './Hero.css';
 import { motion } from 'framer-motion';
 
@@ -11,10 +11,7 @@ const Hero = () => {
 						Fresh Pizza Made To Order
 					</motion.h1>
 					<motion.p initial={{ x: -1000 }} animate={{ x: 5 }} transition={{ ease: 'easeOut', duration: 2.5 }}>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptas laboriosam accusantium
-						laborum doloremque, illo nobis veritatis eaque labore nihil fugiat odio dolorum temporibus dolor
-						obcaecati quam esse alias consequatur magnam consectetur eligendi nam vitae totam. Recusandae
-						optio nam deserunt.
+						
 					</motion.p>
 				</div>
 				<motion.div
