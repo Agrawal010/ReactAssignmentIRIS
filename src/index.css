@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+html {
+	height: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+body {
+	font-family: 'M PLUS Rounded 1c', serif;
+	line-height: 1.6;
+	height: 100%;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.1;
+}

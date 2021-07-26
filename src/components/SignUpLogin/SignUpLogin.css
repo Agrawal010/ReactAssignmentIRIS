@@ -1,0 +1,85 @@
+.contact__card-backdrop {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: 300;
+}
+
+.contact__card-container {
+	display: flex;
+	position: absolute;
+	top: 8rem;
+	left: 0;
+	width: 100%;
+	justify-content: center;
+	z-index: 400;
+}
+
+.contact__card {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	flex-direction: column;
+	width: 567.98px;
+	height: 428.42px;
+	border-radius: 4px;
+	/* padding: 2.5rem; */
+	background-color: white;
+}
+
+.contact__card-close-container {
+	display: flex;
+	width: 100%;
+	padding-top: 5px;
+	margin-bottom: 2rem;
+}
+
+.contact__card-close {
+	background: transparent;
+	border: none;
+	font-size: 2rem;
+	transform: rotate(45deg);
+	cursor: pointer;
+	padding-right: 8px;
+	margin-left: auto;
+}
+
+.contact__card-close:focus {
+	outline: none;
+}
+
+.contact__card h2 {
+	padding: 4rem 0 14px 0;
+	padding-top: 4rem;
+	font-size: 2rem;
+	color: #000;
+}
+
+.contact__greeting {
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+
+.contact__fieldset {
+	text-align: center;
+	border: none;
+}
+
+.contact__card-input {
+	width: 100%;
+	font-size: 1rem;
+	border: solid rgba(167, 164, 164, 0.25) 1px !important;
+	margin-bottom: 1rem;
+	line-height: 1.4;
+	border-radius: 4px;
+	padding: 14px 16px;
+	font-weight: 300;
+	color: #8c8c8c;
+	cursor: pointer;
+}
+
+/* .contact-card; */

@@ -1,0 +1,38 @@
+.menu-toggle {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 23px;
+	width: 32px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	/* visibility: hidden; */
+	top: 2000px;
+	z-index: 1000;
+}
+
+.menu-toggle:focus {
+	outline: none;
+}
+
+.menu-toggle__line {
+	width: 30px;
+	height: 2px;
+	background: #fff;
+}
+
+@media (max-width: 800px) {
+	.menu-toggle {
+		top: 29px;
+	}
+}
+
+@media (max-width: 500px) {
+	.menu-toggle {
+		height: 16px;
+		width: 25px;
+		top: 32px;
+	}
+}
